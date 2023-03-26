@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring Array</title>
+</head>
+<body>
+    <h1>Destructuring Array</h1>
+
+    <script>
+        // const  myArr = ["john", 35, "programer"];    // normal way before es6
+
+        // const name = myArr[0];
+        // const age  = myArr[1];
+        // const profession = myArr[2];
+
+        // console.log("name: " , name);
+        // console.log("age: " , age);
+        // console.log("profession: " , profession);
+
+        // Destructuring Array es6
+        
+        const  myArr = ["jhon", 35, "programer", "graduate"];  // This is called Array destructuring.
+                                                               // It is also also called syntatic suger.
+        const [name , age , profession , study ] = myArr;
+
+        console.log("name: " , name);
+        console.log("age: " , age);
+        console.log("profession: " , profession);
+        console.log("study: " , study );
+
+
+
+    </script>
+</body>
+</html>
